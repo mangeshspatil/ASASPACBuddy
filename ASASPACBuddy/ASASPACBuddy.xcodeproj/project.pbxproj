@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B062C081C634BF200B20118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B062C071C634BF200B20118 /* AppDelegate.swift */; };
+		3B062C0A1C634BF200B20118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B062C091C634BF200B20118 /* ViewController.swift */; };
+		3B062C0D1C634BF200B20118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B062C0B1C634BF200B20118 /* Main.storyboard */; };
+		3B062C101C634BF200B20118 /* ASASPACBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B062C0E1C634BF200B20118 /* ASASPACBuddy.xcdatamodeld */; };
+		3B062C121C634BF200B20118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B062C111C634BF200B20118 /* Assets.xcassets */; };
+		3B062C151C634BF200B20118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B062C131C634BF200B20118 /* LaunchScreen.storyboard */; };
+		3B062C201C634BF300B20118 /* ASASPACBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B062C1F1C634BF300B20118 /* ASASPACBuddyTests.swift */; };
+		3B062C2B1C634BF300B20118 /* ASASPACBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B062C2A1C634BF300B20118 /* ASASPACBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B062C1C1C634BF300B20118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B062BFC1C634BF200B20118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B062C031C634BF200B20118;
+			remoteInfo = ASASPACBuddy;
+		};
+		3B062C271C634BF300B20118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B062BFC1C634BF200B20118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B062C031C634BF200B20118;
+			remoteInfo = ASASPACBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B062C041C634BF200B20118 /* ASASPACBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASASPACBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B062C071C634BF200B20118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B062C091C634BF200B20118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B062C0C1C634BF200B20118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B062C0F1C634BF200B20118 /* ASASPACBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ASASPACBuddy.xcdatamodel; sourceTree = "<group>"; };
+		3B062C111C634BF200B20118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B062C141C634BF200B20118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B062C161C634BF200B20118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B062C1B1C634BF300B20118 /* ASASPACBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASASPACBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B062C1F1C634BF300B20118 /* ASASPACBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASASPACBuddyTests.swift; sourceTree = "<group>"; };
+		3B062C211C634BF300B20118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B062C261C634BF300B20118 /* ASASPACBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASASPACBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B062C2A1C634BF300B20118 /* ASASPACBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASASPACBuddyUITests.swift; sourceTree = "<group>"; };
+		3B062C2C1C634BF300B20118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B062C011C634BF200B20118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C181C634BF300B20118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C231C634BF300B20118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B062BFB1C634BF200B20118 = {
+			isa = PBXGroup;
+			children = (
+				3B062C061C634BF200B20118 /* ASASPACBuddy */,
+				3B062C1E1C634BF300B20118 /* ASASPACBuddyTests */,
+				3B062C291C634BF300B20118 /* ASASPACBuddyUITests */,
+				3B062C051C634BF200B20118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B062C051C634BF200B20118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B062C041C634BF200B20118 /* ASASPACBuddy.app */,
+				3B062C1B1C634BF300B20118 /* ASASPACBuddyTests.xctest */,
+				3B062C261C634BF300B20118 /* ASASPACBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B062C061C634BF200B20118 /* ASASPACBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				3B062C071C634BF200B20118 /* AppDelegate.swift */,
+				3B062C091C634BF200B20118 /* ViewController.swift */,
+				3B062C0B1C634BF200B20118 /* Main.storyboard */,
+				3B062C111C634BF200B20118 /* Assets.xcassets */,
+				3B062C131C634BF200B20118 /* LaunchScreen.storyboard */,
+				3B062C161C634BF200B20118 /* Info.plist */,
+				3B062C0E1C634BF200B20118 /* ASASPACBuddy.xcdatamodeld */,
+			);
+			path = ASASPACBuddy;
+			sourceTree = "<group>";
+		};
+		3B062C1E1C634BF300B20118 /* ASASPACBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B062C1F1C634BF300B20118 /* ASASPACBuddyTests.swift */,
+				3B062C211C634BF300B20118 /* Info.plist */,
+			);
+			path = ASASPACBuddyTests;
+			sourceTree = "<group>";
+		};
+		3B062C291C634BF300B20118 /* ASASPACBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B062C2A1C634BF300B20118 /* ASASPACBuddyUITests.swift */,
+				3B062C2C1C634BF300B20118 /* Info.plist */,
+			);
+			path = ASASPACBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B062C031C634BF200B20118 /* ASASPACBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B062C2F1C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddy" */;
+			buildPhases = (
+				3B062C001C634BF200B20118 /* Sources */,
+				3B062C011C634BF200B20118 /* Frameworks */,
+				3B062C021C634BF200B20118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASASPACBuddy;
+			productName = ASASPACBuddy;
+			productReference = 3B062C041C634BF200B20118 /* ASASPACBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B062C1A1C634BF300B20118 /* ASASPACBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B062C321C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddyTests" */;
+			buildPhases = (
+				3B062C171C634BF300B20118 /* Sources */,
+				3B062C181C634BF300B20118 /* Frameworks */,
+				3B062C191C634BF300B20118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B062C1D1C634BF300B20118 /* PBXTargetDependency */,
+			);
+			name = ASASPACBuddyTests;
+			productName = ASASPACBuddyTests;
+			productReference = 3B062C1B1C634BF300B20118 /* ASASPACBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B062C251C634BF300B20118 /* ASASPACBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B062C351C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddyUITests" */;
+			buildPhases = (
+				3B062C221C634BF300B20118 /* Sources */,
+				3B062C231C634BF300B20118 /* Frameworks */,
+				3B062C241C634BF300B20118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B062C281C634BF300B20118 /* PBXTargetDependency */,
+			);
+			name = ASASPACBuddyUITests;
+			productName = ASASPACBuddyUITests;
+			productReference = 3B062C261C634BF300B20118 /* ASASPACBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B062BFC1C634BF200B20118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "AS JnJ";
+				TargetAttributes = {
+					3B062C031C634BF200B20118 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G8HY47D4FX;
+					};
+					3B062C1A1C634BF300B20118 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3B062C031C634BF200B20118;
+					};
+					3B062C251C634BF300B20118 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3B062C031C634BF200B20118;
+					};
+				};
+			};
+			buildConfigurationList = 3B062BFF1C634BF200B20118 /* Build configuration list for PBXProject "ASASPACBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B062BFB1C634BF200B20118;
+			productRefGroup = 3B062C051C634BF200B20118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B062C031C634BF200B20118 /* ASASPACBuddy */,
+				3B062C1A1C634BF300B20118 /* ASASPACBuddyTests */,
+				3B062C251C634BF300B20118 /* ASASPACBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B062C021C634BF200B20118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B062C151C634BF200B20118 /* LaunchScreen.storyboard in Resources */,
+				3B062C121C634BF200B20118 /* Assets.xcassets in Resources */,
+				3B062C0D1C634BF200B20118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C191C634BF300B20118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C241C634BF300B20118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B062C001C634BF200B20118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B062C101C634BF200B20118 /* ASASPACBuddy.xcdatamodeld in Sources */,
+				3B062C0A1C634BF200B20118 /* ViewController.swift in Sources */,
+				3B062C081C634BF200B20118 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C171C634BF300B20118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B062C201C634BF300B20118 /* ASASPACBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B062C221C634BF300B20118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B062C2B1C634BF300B20118 /* ASASPACBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B062C1D1C634BF300B20118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B062C031C634BF200B20118 /* ASASPACBuddy */;
+			targetProxy = 3B062C1C1C634BF300B20118 /* PBXContainerItemProxy */;
+		};
+		3B062C281C634BF300B20118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B062C031C634BF200B20118 /* ASASPACBuddy */;
+			targetProxy = 3B062C271C634BF300B20118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B062C0B1C634BF200B20118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B062C0C1C634BF200B20118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B062C131C634BF200B20118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B062C141C634BF200B20118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B062C2D1C634BF300B20118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B062C2E1C634BF300B20118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B062C301C634BF300B20118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ASASPACBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B062C311C634BF300B20118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ASASPACBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B062C331C634BF300B20118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASASPACBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASASPACBuddy.app/ASASPACBuddy";
+			};
+			name = Debug;
+		};
+		3B062C341C634BF300B20118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASASPACBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASASPACBuddy.app/ASASPACBuddy";
+			};
+			name = Release;
+		};
+		3B062C361C634BF300B20118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASASPACBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASASPACBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B062C371C634BF300B20118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ASASPACBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asjnj.ASASPACBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ASASPACBuddy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B062BFF1C634BF200B20118 /* Build configuration list for PBXProject "ASASPACBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B062C2D1C634BF300B20118 /* Debug */,
+				3B062C2E1C634BF300B20118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B062C2F1C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B062C301C634BF300B20118 /* Debug */,
+				3B062C311C634BF300B20118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B062C321C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B062C331C634BF300B20118 /* Debug */,
+				3B062C341C634BF300B20118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B062C351C634BF300B20118 /* Build configuration list for PBXNativeTarget "ASASPACBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B062C361C634BF300B20118 /* Debug */,
+				3B062C371C634BF300B20118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B062C0E1C634BF200B20118 /* ASASPACBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B062C0F1C634BF200B20118 /* ASASPACBuddy.xcdatamodel */,
+			);
+			currentVersion = 3B062C0F1C634BF200B20118 /* ASASPACBuddy.xcdatamodel */;
+			path = ASASPACBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B062BFC1C634BF200B20118 /* Project object */;
+}
